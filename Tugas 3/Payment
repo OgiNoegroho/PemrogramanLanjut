@@ -1,1 +1,17 @@
 
+package TugasInheritance;
+
+//membuat sebuah kelas untuk menjalankan semua program yang telah dibuat
+public class Payment {
+    public static void main(String[] args) {
+        Order Order = new Order ("panas", "Ogi");
+        Order.setName("Cappucino");
+        Order.setPrice(32000);
+
+
+        System.out.println("Nama Minuman        :"+Order.getName());
+        System.out.println("Jenis               :"+Order.getTemperature());
+        System.out.println("Nama Pelanggan      :"+Order.getCustomer());
+        System.out.println("Harga               :"+Order.getPrice());
+    }
+}
