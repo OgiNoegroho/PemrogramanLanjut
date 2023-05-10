@@ -1,0 +1,43 @@
+package TugasInheritance;
+
+
+    //SUbclass
+    class Order extends CoffeShop {
+
+    //attribut
+    private String temperature;
+    private String customer;
+
+    //konstruktor
+    public Order(){
+
+        }
+
+    public Order (String temperature, String customer){
+            this.temperature = temperature;
+            this.customer = customer;
+        }
+    //method
+    //memanggil semua konstruktor di superclass dan subclass
+    public Order (String name, String type, String temperature, String customer, int price){
+            this.temperature = temperature;
+            this.customer = customer;
+        }
+
+    //menggunakan get and set untuk memanggil attribut yang memiliki modifier private
+        public String getTemperature(){
+            return temperature;
+        }
+
+        public void setTemperature(String temperature){
+            this.temperature = temperature;
+        }
+
+        public String getCustomer(){
+            return customer;
+        }
+
+        public void setCustomer (String customer)   {
+            this.customer = customer;
+        }
+    }
