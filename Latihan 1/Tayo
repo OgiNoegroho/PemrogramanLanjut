@@ -1,0 +1,36 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package tayo;
+
+/**
+ *
+ * @author Lenovo
+ */
+public class Tayo {
+
+    /**
+     * @param args the command line arguments
+     */
+     
+    String tampil(){
+        return "mengitung jarak tempuh waktu mobil";
+    }
+    
+    void mobil(String nama, String warna, String nomorpolisi, int kecepatan, int waktu){
+        System.out.println("Nama Kendaraan  \t :" + nama);
+        System.out.println("Warna Kendaraan \t :" + warna);    
+        System.out.println("Nomor Polisi    \t :" + nomorpolisi);
+        System.out.println("Kecepatan       \t :" + kecepatan + "KM");
+        System.out.println("waktu tempuh    \t :"+ waktu + "jam");    
+    }    
+    
+    int perhitungan (int laju, int waktu){
+    int jaraktempuh = laju*waktu;
+    return jaraktempuh;
+        
+        
+    }
+    
+}
