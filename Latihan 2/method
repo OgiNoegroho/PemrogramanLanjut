@@ -1,0 +1,32 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package latihan2;
+
+/**
+ *
+ * @author Lenovo
+ */
+public class method {
+
+  
+    public static void main(String[] args) { 
+        BengkelMotorBerkah method = new BengkelMotorBerkah("YAMAHA","Aerox",2021);
+        BengkelMotorBerkah method2 = new BengkelMotorBerkah();
+        
+     
+        method.Servis();
+        method.GantiOli();
+        System.out.println(method.Selesai());
+        
+        method2.Merek("YAMAHA");
+        method2.Nama("Aerox");
+        method2.TahunProduksi(2021);
+        method2.Servis();
+        method2.GantiOli();
+        System.out.println(method2.Selesai());
+    }
+    
+    
+}
