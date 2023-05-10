@@ -1,0 +1,66 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package latihan2;
+
+/**
+ *
+ * @author Lenovo
+ */
+public class BengkelMotorBerkah {
+    String Merek;
+    String Nama;
+    int TahunProduksi;
+    
+public BengkelMotorBerkah() {
+    this.Merek = "";
+    this.Nama = "";
+    this.TahunProduksi = 0;            
+}
+
+public BengkelMotorBerkah(String Merek, String Nama, int TahunProduksi) {
+    
+    this.Merek = Merek;
+    this.Nama = Nama;
+    this.TahunProduksi = TahunProduksi;
+}
+
+public void Servis(){
+    System.out.println("motor " + Merek + " " + Nama + " sedang di servis .");
+}
+  
+public void GantiOli(){
+    System.out.println("motor " + Merek + " " + Nama + " oli sedang diganti.");   
+}
+    
+public String Selesai(){
+    return "Motor " + Merek + " " + Nama + " servis dan pergantian oli telah selesai.";
+}
+    
+public String Nama() {
+    return Nama;
+}
+public void Nama(String pabrik) {
+    this.Nama = Nama;
+}
+public String Merek() {
+    return Merek;
+}
+public void Merek(String merek) {
+    this.Merek = Merek;
+}
+public int TahunProduksi() {
+    return TahunProduksi;
+}
+public void TahunProduksi(int tahunProduksi) {
+    this.TahunProduksi = TahunProduksi;
+}
+   
+    
+    
+    
+    
+    
+    
+}
