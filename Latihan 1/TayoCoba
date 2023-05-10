@@ -1,0 +1,31 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package tayo;
+
+/**
+ *
+ * @author Lenovo
+ */
+public class TayoCoba {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+    Tayo Mulai = new Tayo();
+    
+    
+    System.out.println(Mulai.tampil());
+    Mulai.mobil("Tayo", "Bitu", "BM 1234 TIF", 60, 2);
+            
+    int jaraktempuh = Mulai.perhitungan(60, 2);
+        System.out.println("jarak tempuh:" + jaraktempuh);
+        
+        
+        
+    }
+    
+}
